@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const Product = require('../models/product');
+// const Product = require('./models/product');
+const Product = require('../models/products');
 
-//  Create a new product
+// Create a new product
 router.post('/', async (req, res) => {
   try {
     const product = new Product(req.body);
