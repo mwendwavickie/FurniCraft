@@ -22,7 +22,7 @@ const addOrder = asyncHandler(async (req, res) => {
         orderItems,
         shippingAddress,
         paymentMethod,
-        tottalPrice,
+        totalPrice,
         isPaid: false,
         isDelivered: false,
 
